@@ -147,7 +147,7 @@ const MySkills = () => {
       </motion.div>
     </div>
     {/*Tehnologies*/}
-    <p className="font-playfair font-semibold text-4xl mb-5 mt-10">
+    <p className="font-playfair font-semibold text-4xl mb-5 mt-20">
           Tech<span className="text-blue">nologies</span>
         </p>
     <div className="mt-12 sm:grid-cols-3 gap-10 grid grid-cols-4">
@@ -374,7 +374,7 @@ const MySkills = () => {
         <div className="mt-16 md:mt-0  w-16 md:w-20 lg:w-30">
         <ul>
           <li>
-            <img alt="tehnologies" className="bg-contain bg-center w-18" src={reduxImg} />
+            <img alt="tehnologies" className="bg-contain bg-center w-20" src={reduxImg} />
           </li>
         </ul>
         </div>

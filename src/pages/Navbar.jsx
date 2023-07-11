@@ -9,7 +9,7 @@ const Link = ({page, selectedPage, setSelectedPage}) =>{
     const lowerCasePage = page.toLowerCase();
     return (
         <AnchorLink 
-            className={`${selectedPage === lowerCasePage ? "text-blue" : ""} hover:text-blue transition duration-500`}
+            className={`${selectedPage === lowerCasePage ? "text-white" : ""} hover:text-blue transition duration-500`}
             href={`#${lowerCasePage}`}
             onClick={()=> setSelectedPage(lowerCasePage)}
 
@@ -66,7 +66,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
                     {/*CLOSE ICON 8*/}
                     <div className='flex justify-end  p-12'>
                         <button onClick={()=> setIsMenuToggled(!isMenuToggled)}>
-                            <img alt='close-icon' src={closeIcon}/>
+                            <img alt='close-icon' className='' src={closeIcon}/>
                         </button>
                     </div>
                     {/*MENU ITEMES */}
