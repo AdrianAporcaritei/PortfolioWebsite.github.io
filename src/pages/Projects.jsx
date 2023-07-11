@@ -80,14 +80,14 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <a href="https://github.com/AdrianAporcaritei" rel="noreferrer" target="_blank"><Project title="RestaurantPizzaApp" subtitle="Restaurant app is a site created as an example for restaurants that cook and deliver pizza, from this site the user can order and pay for his favorite pizza." img={project1} /></a>
-          <a href="https://github.com/AdrianAporcaritei" rel="noreferrer" target="_blank"><Project title="RestaurantPizzaApp" subtitle="
-The application is connected to a mongoDB database and offers us the possibility to log in as admin to add and remove products from the sales page." img={project2}/></a> 
+          <Project title="RestaurantPizzaApp" subtitle="Restaurant app is a site created as an example for restaurants that cook and deliver pizza, from this site the user can order and pay for his favorite pizza." img={project1} />
+          <Project title="RestaurantPizzaApp" subtitle="
+            The application is connected to a mongoDB database and offers us the possibility to log in as admin to add and remove products from the sales page." img={project2}/>
           {/* ROW 2 */}
-          <a href="https://github.com/AdrianAporcaritei" rel="noreferrer" target="_blank"><Project title="SocioZone" subtitle="SocioZone is an application similar to facebook where we can add images and different evens that interest us, 
-the user can also change the theme of the application by selecting the icon (moon-sun) to change from dark theme to white theme and vice versa." img={project3} /></a>
-          <a href="https://github.com/AdrianAporcaritei" rel="noreferrer" target="_blank"><Project title="SocioZone" subtitle="
-The application is connected to the MongoDB database and users can create their own account to log in." img={project4} /></a>
+          <Project title="SocioZone" subtitle="SocioZone is an application similar to facebook where we can add images and different evens that interest us, 
+            the user can also change the theme of the application by selecting the icon (moon-sun) to change from dark theme to white theme and vice versa." img={project3} />
+          <Project title="SocioZone" subtitle="
+            The application is connected to the MongoDB database and users can create their own account to log in." img={project4} />
           <div
             className="flex justify-center text-center items-center p-10 max-w-[710px] max-h-[600px] text-2xl font-playfair font-semibold
             bg-gradient-to-r from-black via-emerald-900 to-cyan-600
