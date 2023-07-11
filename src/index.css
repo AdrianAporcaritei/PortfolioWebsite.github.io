@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Sofia+Sans+Semi+Condensed:wght@400;500;700&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    background-color: rgb(6, 6, 6);
+    @apply text-white;
+}
