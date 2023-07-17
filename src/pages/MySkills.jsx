@@ -41,7 +41,7 @@ const MySkills = () => {
         </p>
         <LineGradient width="w-1/3" />
         <p className="mt-10 mb-7">
-          I'm very passionate about FrontEnd development and I want to develop myself in this branch and improve my skills.
+          I'm very passionate about front-end development and I want to develop myself in this branch and improve my skills.
         </p>
       </motion.div>
 
@@ -88,7 +88,7 @@ const MySkills = () => {
         </div>
         <p className="mt-5">
         Over time I have accumulated experience working in multinational companies with different teams and projects,
-          but in the last 3 years I started to study programming and discover my passion for FrontEnd development.
+          but in the last 3 years I started to study programming and discover my passion for front-end development.
         </p>
       </motion.div>
 
