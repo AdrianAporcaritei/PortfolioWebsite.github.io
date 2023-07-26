@@ -4,6 +4,8 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery  from '../hooks/useMediaQuery';
 import menuIcon from "../assets/menu-icon.svg"
 import closeIcon from "../assets/close-icon.svg"
+import logo from "../assets/logoNav.png"
+
 
 const Link = ({page, selectedPage, setSelectedPage}) =>{
     const lowerCasePage = page.toLowerCase();
@@ -28,7 +30,8 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
   return (
     <div className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
         <div className='flex items-center justify-between mx-auto w-5/6'>
-            <h4 className='font-playfair text-3xl font-bold'>AA</h4>
+            {/* <h4 className='font-playfair text-3xl font-bold'>AA</h4> */}
+            <img src={logo} alt="" className='w-24'/>
             {}
             {isAboveSmallScreens ? (
                 <div className='flex justify-between gap-16 font-opensans text-sm font-semibold'>

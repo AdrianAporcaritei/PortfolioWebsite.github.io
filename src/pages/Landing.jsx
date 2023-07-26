@@ -49,16 +49,17 @@ const Landing = ({setSelectedPage}) => {
           }}
             >
               <p className='text-6xl font-playfair z-10 text-center md:text-start'>
-                Adrian {""}
+                 Adrian {""}
                   <span 
                   className='xs:relative xs:font-semibold z-20
                   before:absolute before:-left-[10px] before:-top-[40px] before:z-[-1]
                   '
-                  >Aporcaritei
+                  > Aporcaritei
                   </span>
               </p>
+             
               <p className='mt-20 mb-7 text-md text-center md:text-start'>
-                Hello, My name is Adrian, I'm a developer who wants to evolve in this branch, I am an avid learner and believe in the power of continuous growth and I actively seek out opportunities to expand my knowledge.
+                Hello, My name is Adrian, I'm a software developer who wants to evolve in this branch, I am an avid learner and believe in the power of continuous growth and I actively seek out opportunities to expand my knowledge.
                 Thank you for visiting my portfolio and taking the time to learn more about me and my work. Please feel free to reach out to me with any inquiries or opportunities.
               </p>
             </motion.div>
