@@ -41,10 +41,12 @@ const MySkills = () => {
         </p>
         <LineGradient width="w-1/3" />
         <p className="mt-10 mb-7">
-          I'm very passionate about front-end development and I want to develop myself in this branch and improve my skills.
+        In the realm where the virtual and the tangible converge, I find myself immersed in an all-encompassing passion for web development and technology. It's a fervor that transcends the ordinary, propelling me into a world of endless possibilities, where lines of code are the threads weaving together the fabric of innovation.
+        Web development is my creative sanctuary, where my imagination takes the lead and technology is the brush that paints my visions into existence
+        What truly ignites my enthusiasm is the ever-evolving nature of technology. It's not enough to rest on one's laurels; in this domain, stagnation equals obsolescence. With each new framework, programming language, or tool that emerges, I feel an irresistible urge to dive in, explore, and integrate these innovations into my arsenal. It's like standing at the edge of a digital frontier, eager to embrace what's next.
+
         </p>
       </motion.div>
-
       <div className="mt-16 md:mt-0">
         {isAboveLarge ? (
           <div
@@ -88,7 +90,7 @@ const MySkills = () => {
         </div>
         <p className="mt-5">
         Over time I have accumulated experience working in multinational companies with different teams and projects,
-          but in the last 3 years I started to study programming and discover my passion for front-end development.
+        but in the last 3 years I started to study programming  and  I discover that programming isn't just about writing lines of code; it's about opening doors to new worlds, both digital and imaginative.
         </p>
       </motion.div>
 
