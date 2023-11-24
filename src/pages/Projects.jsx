@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import project1 from "../assets/RestaurantApp.JPG"
 import project2 from "../assets/RestaurantApp2.JPG"
 import project3 from "../assets/SocioZone.JPG"
-import project4 from "../assets/SocioZone2.JPG"
+import project4 from "../assets/Dashboard.jpg"
 
 const container = {
   hidden: {},
@@ -26,12 +26,12 @@ const Project = ({ title, subtitle, img }) => {
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
-    <motion.div variants={projectVariant} className="relative ">
+    <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">{subtitle}</p>
       </div>
-      <img src={img} alt={projectTitle} className="h-400 w-400" />
+      <img src={img} alt={projectTitle} className="object-contain h-400 w-400" />
     </motion.div>
   );
 };
@@ -67,7 +67,7 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3"
+          className="sm:grid sm:grid-cols-3 gap-4"
           variants={container}
           initial="hidden"
           whileInView="visible"
@@ -76,18 +76,32 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-gradient-to-r from-cyan-600 to-blue-300
-              max-w-[550px] max-h-[490px] text-2xl font-playfair font-semibold"
+              max-w-[550px] max-h-[490px] text-2xl font-playfair font-semibold gap"
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="RestaurantPizzaApp" subtitle="Restaurant app is a site created as an example for restaurants that cook and deliver pizza, from this site the user can order and pay for his favorite pizza." img={project1} />
-          <Project title="RestaurantPizzaApp" subtitle="
-            The application is connected to a mongoDB database and offers us the possibility to log in as admin to add and remove products from the sales page." img={project2}/>
+          <Project 
+            title="RestaurantPizzaApp" 
+            subtitle="Restaurant app is a site created as an example for restaurants that cook and deliver pizza, from this site the user can order and pay for his favorite pizza." 
+            img={project1} 
+            />
+          <Project 
+            title="RestaurantPizzaApp" 
+            subtitle="The application is connected to a mongoDB database and offers us the possibility to log in as admin to add and remove products from the sales page." 
+            img={project2}
+            />
           {/* ROW 2 */}
-          <Project title="SocioZone" subtitle="SocioZone is an application similar to facebook where we can add images and different evens that interest us, 
-            the user can also change the theme of the application by selecting the icon (moon-sun) to change from dark theme to white theme and vice versa." img={project3} />
-          <Project title="SocioZone" subtitle="
-            The application is connected to the MongoDB database and users can create their own account to log in." img={project4} />
+          <Project 
+            title="SocioZone" 
+            subtitle="SocioZone is an application similar to facebook where we can add images and different evens that interest us, 
+            the user can also change the theme of the application by selecting the icon (moon-sun) to change from dark theme to white theme and vice versa." 
+            img={project3} 
+            />
+          <Project 
+            title="Dashboard" 
+            subtitle="Full stack dashboard using data which contains sales volumes of products + users and admins. It's build in react + redux (nodeJS) and for the database it's used mongoDB. Beautiful design, user friendly with dark/light theme and very responsive." 
+            img={project4}
+            />
           <div
             className="flex justify-center text-center items-center p-10 max-w-[710px] max-h-[600px] text-2xl font-playfair font-semibold
             bg-gradient-to-r from-black via-emerald-900 to-cyan-600
