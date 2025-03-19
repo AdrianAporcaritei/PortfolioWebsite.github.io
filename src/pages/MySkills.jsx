@@ -14,7 +14,7 @@ import typeScriptImg from "../assets/typescript.png"
 import sql from "../assets/sql.png"
 import mongoDbImg from "../assets/mongoDB.png"
 import reduxImg from "../assets/Redux.png"
-import graphSQl from "../assets/graphql.png"
+import javaB from "../assets/Java.png"
 
 
 const MySkills = () => {
@@ -41,9 +41,8 @@ const MySkills = () => {
         </p>
         <LineGradient width="w-1/3" />
         <p className="mt-10 mb-7">
-        In the realm where the virtual and the tangible converge, I find myself immersed in an all-encompassing passion for web development and technology. It's a fervor that transcends the ordinary, propelling me into a world of endless possibilities, where lines of code are the threads weaving together the fabric of innovation.
-        Web development is my creative sanctuary, where my imagination takes the lead and technology is the brush that paints my visions into existence
-        What truly ignites my enthusiasm is the ever-evolving nature of technology. It's not enough to rest on one's laurels; in this domain, stagnation equals obsolescence. With each new framework, programming language, or tool that emerges, I feel an irresistible urge to dive in, explore, and integrate these innovations into my arsenal. It's like standing at the edge of a digital frontier, eager to embrace what's next.
+        In the realm where the virtual and the tangible converge, I find myself immersed in an all-encompassing passion for software development and technology. It's a fervor that transcends the ordinary, propelling me into a world of endless possibilities, where lines of code are the threads weaving together the fabric of innovation.
+      
 
         </p>
       </motion.div>
@@ -153,6 +152,25 @@ const MySkills = () => {
           Tech<span className="text-blue">nologies</span>
         </p>
     <div className="mt-12 sm:grid-cols-3 gap-10 grid grid-cols-4">
+    <motion.div
+        className="md:w-1/3"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.5 }}s
+        variants={{
+          hidden: { opacity: 0, x: -50 },
+          visible: { opacity: 1, x: 0 },
+        }}
+      >
+        <div className="mt-16 md:mt-0  w-16 md:w-22 lg:w-30">
+        <ul>
+          <li>
+            <img alt="tehnologies" className="bg-contain bg-center w-18" src={javaB} />
+          </li>
+        </ul>
+        </div>
+      </motion.div>
       <motion.div
         className="md:w-1/3"
         initial="hidden"
@@ -172,6 +190,7 @@ const MySkills = () => {
         </ul>
         </div>
       </motion.div>
+      
       <motion.div
         className="md:w-1/3"
         initial="hidden"
@@ -339,25 +358,6 @@ const MySkills = () => {
         <ul>
           <li>
             <img alt="tehnologies" className="bg-contain bg-center w-18" src={mongoDbImg} />
-          </li>
-        </ul>
-        </div>
-      </motion.div>
-      <motion.div
-        className="md:w-1/3"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-      >
-        <div className="mt-16 md:mt-0  w-16 md:w-20 lg:w-30">
-        <ul>
-          <li>
-            <img alt="tehnologies" className="bg-contain bg-center w-18" src={graphSQl} />
           </li>
         </ul>
         </div>
